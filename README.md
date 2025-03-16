@@ -16,6 +16,7 @@ O aplicativo é feito em 100% em linguagem C#, tem uma tela de formulario támbe
 | Banco de Dados | Aplicativo |
 |-------|---------|
 | SQL | C# |
+|<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" width="30" height="30" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="30" heigth="30"/> |
 
 
 
