@@ -68,33 +68,33 @@ namespace agenda
             {
                 MySqlConnection conn = new MySqlConnection(MysqlClientString);
                 conn.Open();
-                DataTable dt = new DataTable(); 
-                MySqlDataAdapter da = new MySqlDataAdapter 
-                ("SELECT * from tbalunos where id = '" +txtid.Text+"'", conn); // where para ele pegar só do ID
+                DataTable dt = new DataTable();
+                MySqlDataAdapter da = new MySqlDataAdapter
+                ("SELECT * from tbalunos where id = '" + txtid.Text + "'", conn); // where para ele pegar só do ID
                 da.Fill(dt);
-                txtnome.Text = dt.Rows[0].Field<string>("nome"); 
+                txtnome.Text = dt.Rows[0].Field<string>("nome");
                 txtemail.Text = dt.Rows[0].Field<string>("email"); // Irá mostrar nas caixas de texto após o usario escolher o ID.
                 cboclasse.Text = dt.Rows[0].Field<string>("classe"); // Não irá mostrar no datagridview
                 dataGridView1.DataSource = dt;
             }
             catch // Para Caso o usuario digite um ID que não existe ele vai dar um aviso
             {
-                MessageBox.Show("Aluno não cadastrado","Alerta",
-                MessageBoxButtons.OK,MessageBoxIcon.Information); // Deixa a caixa de alerta mais bonita.
+                MessageBox.Show("Aluno não cadastrado", "Alerta",
+                MessageBoxButtons.OK, MessageBoxIcon.Information); // Deixa a caixa de alerta mais bonita.
             }
         }
 
         private void btnalterar_Click(object sender, EventArgs e)
         {
-            string sql = "update tbalunos set nome = '" + txtnome.Text + "', classe = '" + cboclasse.Text + "', email = '" + txtemail.Text + "' where id = '"+txtid.Text+"'"; // Altera os dados pelas caixas de texto
-            MySqlConnection conn = new MySqlConnection(MysqlClientString); 
+            string sql = "update tbalunos set nome = '" + txtnome.Text + "', classe = '" + cboclasse.Text + "', email = '" + txtemail.Text + "' where id = '" + txtid.Text + "'"; // Altera os dados pelas caixas de texto
+            MySqlConnection conn = new MySqlConnection(MysqlClientString);
             conn.Open();
-            MySqlCommand cmd = new MySqlCommand(); 
+            MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = sql; 
-            cmd.ExecuteNonQuery(); 
+            cmd.CommandText = sql;
+            cmd.ExecuteNonQuery();
             MessageBox.Show("Alterado com sucesso");
-            btncarregar_Click(sender, e); 
+            btncarregar_Click(sender, e);
             txtid.Clear();
             txtnome.Clear();
             txtemail.Clear();
@@ -103,7 +103,25 @@ namespace agenda
 
         private void btnexcluir_Click(object sender, EventArgs e)
         {
+            string sql = "DELETE from tbalunos where id = '" + txtid.Text + "'";
+            MySqlConnection conn = new MySqlConnection(MysqlClientString);
+            conn.Open();
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = sql;
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("Excluido com sucesso");
+            limpar(); // Uma subfunção para limpar os campos.
+            btncarregar_Click(sender, e);
+        }
 
+        private void limpar() //Subfunção
+        {
+            txtid.Clear();
+            txtnome.Clear();
+            txtemail.Clear();
+            cboclasse.Text = "selecione..."; // Apaga a combo box
+            txtid.Focus(); // O cursor volta para a caixa de ID
         }
     }
 }

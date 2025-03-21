@@ -84,3 +84,46 @@ D:\agenda\agenda\obj\Debug\agenda.csproj.CoreCompileInputs.cache
 D:\agenda\agenda\obj\Debug\agenda.csproj.Up2Date
 D:\agenda\agenda\obj\Debug\agenda.exe
 D:\agenda\agenda\obj\Debug\agenda.pdb
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\agenda.exe.config
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\agenda.exe
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\agenda.pdb
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\Google.Protobuf.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\MySql.Data.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Buffers.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.IO.Pipelines.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Memory.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\ZstdSharp.dll
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\Google.Protobuf.pdb
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\Google.Protobuf.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\MySql.Data.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Buffers.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.IO.Pipelines.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Memory.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.csproj.AssemblyReference.cache
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.Form1.resources
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.Properties.Resources.resources
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.csproj.GenerateResource.cache
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.csproj.CoreCompileInputs.cache
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.csproj.Up2Date
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.exe
+C:\Users\deaam\OneDrive\Área de Trabalho\projetos\agenda\agenda\obj\Debug\agenda.pdb
